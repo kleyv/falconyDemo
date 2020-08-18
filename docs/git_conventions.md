@@ -11,3 +11,17 @@ Summary
 5. Use the imperative mood in the subject line
 6. Wrap the body at 72 characters
 7. Use the body to explain what and why vs. how
+
+
+### Create a new local branch
+`git checkout -b branch-name` - creates the new branch and switches you to it
+`git co -b branch-name` - less verbose version of the command above
+
+### Make verbose commit
+`git commit`
+This will open your text editor and you can write a more verbose commit follwing the guidelines in the post linked above.
+
+### Push to branch (not master)
+`git push origin branch-name`
+
+**Do not work on master**
